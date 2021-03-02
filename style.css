@@ -11,11 +11,15 @@
 :root {
     --color-primary: #4c2982;
     --color-secondary: #f9d170;
-    --color-bg: #f9f7f3;
+    --color-bg: #f3f4f5;
     --color-text: #252525;
     --color-light: #f3f3f3;
     --color-success: #067973;
     --color-success-bg: #f5fffe;
     --color-error: #b71540;
     --color-error-bg: #fdeff3;
+}
+
+body {
+    background: var(--color-bg);
 }
