@@ -46,3 +46,13 @@ label {
 .input-container {
     box-shadow: 0 0 3px 2px rgba(0,0,0,.1);
 }
+
+input {
+    color: var(--color-text);
+    width: 15em;
+    padding: .5rem;
+}
+
+button {
+    background: var(--color-secondary);
+}
