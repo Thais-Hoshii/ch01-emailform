@@ -29,6 +29,12 @@ body {
     font-family: "Heebo", sans-serif;
 }
 
+header {
+    width: 15em;
+    line-height: 2.3em;
+    margin-bottom: 1.8em;
+}
+
 header h1, label {
     color: var(--color-primary);
 }
