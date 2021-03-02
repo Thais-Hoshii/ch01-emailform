@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
 
 /* Reset CSS style */
 * {
@@ -27,6 +28,11 @@ body {
     font-family: "Heebo", sans-serif;
 }
 
-h1, label {
+header h1, label {
     color: var(--color-primary);
+}
+
+header h1 {
+    font-size: 26pt;
+    font-weight: bolder;
 }
