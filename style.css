@@ -42,3 +42,7 @@ label {
     font-weight: 600;
     text-transform: uppercase;
 }
+
+.input-container {
+    box-shadow: 0 0 3px 2px rgba(0,0,0,.1);
+}
