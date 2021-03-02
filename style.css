@@ -26,3 +26,7 @@ body {
     background: var(--color-bg);
     font-family: "Heebo", sans-serif;
 }
+
+h1, label {
+    color: var(--color-primary);
+}
