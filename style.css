@@ -13,7 +13,7 @@
 }
 
 :root {
-    --color-primary: #4c2982;
+    --color-primary: #512d86;
     --color-secondary: #f9d170;
     --color-bg: #f3f4f5;
     --color-text: #252525;
@@ -79,4 +79,5 @@ button {
 .submit-icon {
     width: 1.5rem;
     height: 1.5rem;
+    filter: invert(40%) saturate(100%) sepia(100%) hue-rotate(210deg) brightness(85%) contrast(200%);
 }
