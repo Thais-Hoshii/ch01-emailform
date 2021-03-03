@@ -29,17 +29,17 @@ body {
     font-family: "Heebo", sans-serif;
 }
 
-header {
+.heading-form {
     width: 15em;
     line-height: 2.3em;
     margin-bottom: 1.8em;
 }
 
-header h1, label {
+.heading-form h1, label {
     color: var(--color-primary);
 }
 
-header h1 {
+.heading-form h1 {
     font-size: 26pt;
     font-weight: 900;
 }
