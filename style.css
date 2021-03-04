@@ -95,6 +95,10 @@ button {
     width: 16%;
 }
 
+button:hover {
+    filter:brightness(105%);
+}
+
 .submit-icon {
     width: 1.5rem;
     height: 1.5rem;
