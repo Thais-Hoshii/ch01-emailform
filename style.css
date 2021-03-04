@@ -85,6 +85,10 @@ input {
     font-size: 13pt;
 }
 
+input:invalid {
+    box-shadow: none;
+}
+
 /* Submit button */
 button {
     background: var(--color-secondary);
