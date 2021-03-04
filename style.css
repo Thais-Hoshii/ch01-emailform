@@ -12,6 +12,7 @@
     font: inherit;
 }
 
+/* Variables */
 :root {
     --color-primary: #512d86;
     --color-secondary: #f9d170;
@@ -24,6 +25,7 @@
     --color-error-bg: #fdeff3;
 }
 
+/* General */
 body {
     background: var(--color-bg);
     font-family: "Heebo", sans-serif;
@@ -34,6 +36,7 @@ body {
     margin: 8em auto 0;
 }
 
+/* Heading */
 .heading-form {
     width: 15em;
     line-height: 2.3em;
@@ -49,6 +52,7 @@ body {
     font-weight: 900;
 }
 
+/* Form input */
 label {
     font-weight: 600;
     text-transform: uppercase;
