@@ -1,3 +1,3 @@
 "use strict"
 
-let $ = (txt) => {return document.querySelector(txt)};
+function $(txt) { return document.querySelector(txt); };
