@@ -81,6 +81,7 @@ input {
     font-size: 13pt;
 }
 
+/* Submit button */
 button {
     background: var(--color-secondary);
     width: 16%;
