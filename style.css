@@ -30,15 +30,15 @@ body {
 }
 
 .email-form {
-    width: 20em;
-    margin: 12em auto 0;
+    width: 20rem;
+    margin: 12rem auto 10rem;
 }
 
 /* Heading */
 .heading-form {
-    width: 15em;
-    line-height: 2.3em;
-    margin-bottom: 1.8em;
+    width: 15rem;
+    line-height: 2.3rem;
+    margin-bottom: 1.8rem;
 }
 
 .heading-form h1, label {
@@ -55,7 +55,7 @@ label {
     font-weight: 600;
     text-transform: uppercase;
     display: block;
-    margin: .3em 0;
+    margin: .3rem 0;
 }
 
 .input-container {
@@ -78,7 +78,7 @@ input {
     background: var(--color-light);
     color: var(--color-text);
     box-sizing: border-box;
-    padding: .5em;
+    padding: .5rem;
     width: 84%;
     font-size: 13pt;
 }
