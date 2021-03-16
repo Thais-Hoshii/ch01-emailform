@@ -29,7 +29,7 @@ body {
     font-family: "Heebo", sans-serif;
 }
 
-.email-form {
+.form-container {
     width: 20rem;
     margin: 12rem auto 10rem;
 }
@@ -38,7 +38,6 @@ body {
 .heading-form {
     width: 15rem;
     line-height: 2.3rem;
-    margin-bottom: 1.8rem;
 }
 
 .heading-form h1, label {
@@ -51,6 +50,10 @@ body {
 }
 
 /* Form input */
+.email-form {
+    margin: 1.8rem 0 1rem;
+}
+
 label {
     font-weight: 600;
     text-transform: uppercase;
@@ -109,10 +112,18 @@ button:hover {
 
 /* Message box */
 .signup-popup {
+    display: grid;
+    grid-template-columns: 12% auto;
     border: 1px solid var(--color-error);
     background: var(--color-error-bg);
+    color: var(--color-error);
+    padding: .8rem;
 }
 
 #popup-icon {
     fill: var(--color-error);
+}
+
+.signup-popup h1 {
+    font-weight: 600;
 }
