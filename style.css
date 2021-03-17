@@ -47,11 +47,12 @@ body {
 .heading-form h1 {
     font-size: 26pt;
     font-weight: 900;
+    margin-bottom: 1.8rem;
 }
 
 /* Form input */
 .email-form {
-    margin: 1.8rem 0 1rem;
+    margin-bottom: 1rem;
 }
 
 label {
@@ -86,7 +87,7 @@ input {
     font-size: 13pt;
 }
 
-input:invalid {
+input[type="email"]:invalid {
     box-shadow: none;
 }
 
@@ -111,19 +112,26 @@ button:hover {
 }
 
 /* Message box */
-.signup-popup {
+#signup-popup {
     display: grid;
     grid-template-columns: 12% auto;
     border: 1px solid var(--color-error);
     background: var(--color-error-bg);
     color: var(--color-error);
     padding: .8rem;
+    position: absolute;
+    top: -999rem;
 }
 
 #popup-icon {
     fill: var(--color-error);
 }
 
-.signup-popup h1 {
+#signup-popup h1 {
     font-weight: 600;
+}
+
+/* Icon display */
+#icon-check {
+    display: none;
 }
